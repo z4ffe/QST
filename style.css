@@ -1,0 +1,249 @@
+* {
+    font-family: "Articulat CF", sans-serif;
+}
+
+body {
+    margin-left: 15%;
+    margin-top: 70px;
+    background: #171717;
+    position: relative;
+    margin-right: 15%;
+}
+
+header {
+    margin-left: -50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: #979797;
+    font-family: "FONTSPRING DEMO - Visby CF Bold", sans-serif;
+    font-weight: 700;
+    padding: 0;
+}
+
+.header_content {
+    display: flex;
+    grid-template-columns: 4% 1fr;
+    margin-bottom: -60px;
+    align-self: center;
+    align-content: center;
+
+}
+
+.header_content_icon {
+    background-image: url("/img/ActionsIcon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: block;
+
+
+}
+
+.header_content_title {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    display: inline-grid;
+    width: 500px;
+    margin-top: -56px;
+    margin-left: 10px;
+}
+
+
+.header_title_frontend {
+    background: linear-gradient(270deg, #FE8888 27.16%, #8066FF 97.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: -65px;
+    display: block;
+}
+
+.section_first {
+    display: flex;
+
+}
+
+.section_content-text {
+    color: white;
+    font-family: "FONTSPRING DEMO - Visby CF", sans-serif;
+    font-size: 25px;
+    width: 654px;
+    display: block;
+}
+
+.section_content-button {
+    display: flex;
+    font-size: 25px;
+    font-family: "Articulat CF", sans-serif;
+    margin-top: 30px;
+}
+
+.section_content-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 3px;
+    border: 3px solid #FE8888;
+    border-radius: 5px;
+    width: 190px;
+    height: 40px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    border-color: white;
+}
+
+a:active {
+    border-color: #8167FF;
+}
+
+main {
+    margin-top: 120px;
+    float: left;
+}
+
+.section-icon {
+    background-image: url("/img/ActionsIcon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 14px;
+    float: left;
+
+}
+
+.section-text-main {
+    color: white;
+    display: flex;
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.section-header {
+    color: white;
+    font-size: 44px;
+    font-weight: 700;
+    width: 412px;
+    height: 126;
+    line-height: 43px;
+}
+
+.section-header span {
+    background: linear-gradient(270deg, #FE8888 27.16%, #8066FF 97.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.section-image {
+    display: flex;
+    width: 608px;
+    height: 340px;
+    margin-top: 50px;
+}
+
+.section-image img {
+    display: flex;
+    padding-left: 60px;
+}
+
+.section-line {
+    display: block;
+    content: '';
+    background-color: #2E2E2E;
+    width: 1080px;
+    height: 2px;
+    margin-top: 20px;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    grid-gap: 0%;
+}
+
+.grid-all {
+    width: 303px;
+}
+
+.section-grid h3 {
+    color: white;
+    padding-top: 5px;
+
+}
+
+.section-grid h4 {
+    color: white;
+    font-family: "FONTSPRING DEMO - Visby CF Bold", sans-serif, sans-serif;
+}
+
+.grid-icon {
+    background-image: url("/img/ActionsIcon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #979797;
+}
+
+.footer-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -25px;
+}
+
+h5 {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-line {
+    display: block;
+    content: '';
+    background-color: #2E2E2E;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+}
+
+.footer-text {
+    display: flex;
+    color: white;
+    justify-content: center;
+    letter-spacing: 1.2px;
+    font-family: "FONTSPRING DEMO - Visby CF Bold";
+    font-size: 14px;
+}
+
+
+
+
+
+
